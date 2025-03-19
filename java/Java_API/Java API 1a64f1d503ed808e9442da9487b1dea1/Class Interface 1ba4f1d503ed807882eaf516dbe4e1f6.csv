@@ -1,0 +1,11 @@
+﻿Name,Type,Package,Inheritance,Description,properties,Last Updated
+Set<E>,Interface,java.util,Set → Collection → Object,不允許重複元素的集合。,HashSet（無序）、TreeSet（排序）、LinkedHashSet（插入順序）。,"March 18, 2025 9:37 AM"
+List<E>,Interface,java.util,List → Collection → Object,允許重複元素，元素有索引，可依順序存取。,ArrayList（陣列實作）、LinkedList（鏈結串列實作）。,"March 18, 2025 9:38 AM"
+Queue<E>,Interface,java.util,Queue → Collection → Object,先進先出（FIFO）的資料結構。,LinkedList、ArrayDeque。,"March 18, 2025 9:38 AM"
+Properties,Class,java.util,"Properties → Hashtable<Object, Object> → Map → Object",Key-Value 組合，用於讀取設定檔（.properties）。,Hashtable 子類，Key 和 Value 皆為 String，可讀寫 .properties 文件。,"March 18, 2025 9:40 AM"
+Collection<E>,Interface,java.util,Collection → Object,容納多個元素的集合介面，提供基本操作方法。,主要子介面：List（有序）、Set（無重複）、Queue（FIFO）。,"March 18, 2025 9:48 AM"
+"Map<K, V>",Interface,java.util,Map → Object,以 Key-Value 形式儲存資料，Key 唯一，不允許重複。,HashMap（無序）、TreeMap（排序）、LinkedHashMap（插入順序）。,"March 18, 2025 9:53 AM"
+Math,Class,java.lang,Math → Object,數學運算類別，提供常見的數學函數，如指數、對數、三角函數等。,final 類別，無法實例化；所有方法皆為 static。,"March 19, 2025 8:52 AM"
+System,Class,java.lang,System → Object,提供標準輸入/輸出、系統屬性、時間計算等功能。,final 類別，無法實例化；常見屬性：System.out、System.err、System.in。,"March 19, 2025 8:53 AM"
+StringBuffer,Class,java.lang,StringBuffer → Object,可變字串類別，允許修改字串內容（增、刪、改）。適合頻繁變動的字串操作。,預設容量 16，可自動擴展；支援 append()、insert()、replace()、delete()。,"March 19, 2025 8:54 AM"
+Spring data jpa,Interface,org.springframework.data.jpa.repository,"JpaRepository<T, ID> → PagingAndSortingRepository<T, ID>→CrudRepository<T, ID>","支援 Specification API與動態查詢方法，例如 findByUsernameAndEmail(String username, String email)",,"March 19, 2025 9:00 AM"
